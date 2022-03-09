@@ -1,0 +1,17 @@
+{
+  "name": "thing1-base",
+  "version": "1.0.0",
+  "description": "a test thing",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cowsay2": "^2.0.4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "thing1-base": "index.js"
+  }
+}

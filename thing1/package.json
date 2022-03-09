@@ -1,0 +1,19 @@
+{
+  "name": "thing1",
+  "version": "1.0.0",
+  "description": "testing packages on gh actions",
+  "main": "index.js",
+  "repository": "git@github.com:benpriestman/package-test1.git",
+  "author": "Benjamin Priestman <benjamin@miniverse.me.uk>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "thing2": "https://github.com/benpriestman/package-test2",
+    "thing1-base": "1.0.0"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "build": "thing2 | cowsay > cowyosay.txt"
+  }
+}

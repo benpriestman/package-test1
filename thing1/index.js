@@ -6,5 +6,3 @@ console.log(cowsay.say({
     e : "oO",
     T : "U "
 }));
-
-console.log(cowsayTag`And another thing..`)

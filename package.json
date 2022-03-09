@@ -1,5 +1,5 @@
 {
-  "name": "package-test1",
+  "name": "thing1",
   "version": "1.0.0",
   "description": "testing packages on gh actions",
   "main": "index.js",
@@ -13,9 +13,9 @@
   },
   "scripts": {
     "test": "node index.js",
-    "build": "cat node_modules/package-test2/yosay.txt | cowsay > cowyosay.txt"
+    "build": "thing2 | cowsay > cowyosay.txt"
   },
   "devDependencies": {
-    "package-test2": "https://github.com/benpriestman/package-test2"
+    "thing2": "https://github.com/benpriestman/package-test2"
   }
 }
